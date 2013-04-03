@@ -67,7 +67,7 @@
       })
 
     // carousel demo
-    $('#myCarousel').carousel()
+    $('#myCarousel,#mySecondCarousel,#myThirdCarousel').carousel()
 
     // javascript build logic
     var inputsComponent = $("#components.download input")
