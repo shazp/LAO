@@ -5,32 +5,37 @@
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/examples/slide-01.jpg" alt="Oficina">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>La Oficina.</h1>
-              <p class="lead">A San Juanico, Baja California Sur Resource for Expatriates & Visitors.</p>
-              <a class="btn btn-large btn-warning" href="#">Reservations</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/examples/slide-02.jpg" alt="Vacations">
+          <img src="img/rental-carousel/slide-01.jpg" alt="Oficina">
           <div class="container">
             <div class="carousel-caption">
               <h1>Vacation Rentals</h1>
               <p class="lead">Book your Baja Vacation here.</p>
-              <a class="btn btn-large btn-warning" href="#">Inquiries</a>
+
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="img/examples/slide-03.jpg" alt="">
+          <img src="img/rental-carousel/slide-02.jpg" alt="Vacations">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Real Estate</h1>
-              <p class="lead">Properties for Sale in San Juanico.</p>
-              <a class="btn btn-large btn-warning" href="#">Browse Properties</a>
+
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img src="img/rental-carousel/slide-03.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img src="img/rental-carousel/slide-04.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+
             </div>
           </div>
         </div>
@@ -49,8 +54,20 @@
 
  <h2 class="featurette-heading harabara">Vacation Rentals</h2>
  
+       
+       <div class="divider"><img src="img/swirl.png"></div>
+       <div class="row">
+      <div class="span8 offset2">
+      <p class="text-center"><i class="icon-quote-left icon-2x subhead"></i> Working with Dana at La Oficina has been an incredibly easy experience.  I highly recommend any of their ocean front rentals, the views are outstanding and each house has an incredibly cozy feel to it.  The accommodations are clean and well stocked and provide a wonderful space for a beautiful beach vacation. <i class="icon-quote-right icon-2x subhead"></i> - K.K.</p>
+     </div>
+     </div>
+ <div class="divider"></div>
+ 
+ 
+ 
+ 
 <section class="beachhouse">
- <div class="divider"><img src="img/swirl.png"></div>
+
  
 
       <div class=" row-fluid">
@@ -66,9 +83,7 @@
         	<ul class="unstyled">
         		<li>Sleeps 1-6 people (Max. 6)</li>
         		<li>4 bedrooms and 2 bathrooms</li>
-        		        		
-        		        		
-        		<li>Full kitchen, Baking & cooking facilities </li>
+
 				<li>Master en suite bedroom</li>
 	</ul></dd>
 </dl>
@@ -81,6 +96,7 @@
 					</div>
 					<div id="collapseZero" class="accordion-body collapse">
 						<div class="accordion-inner">
+        					Full kitchen, Baking & cooking facilities<br>
 							Fireplace, Stove & BBQ grill<br>
 							Surfboards & Kayaks<br>
 							Secure Parking<br>
@@ -131,7 +147,10 @@
 				</div>
 			</div>
 	
-   
+   			<div class="reservation-button">
+				
+<a class="btn btn-large btn-primary" href="contact.php">Reservation</a>
+</div>
       
       </div>
       
@@ -141,29 +160,58 @@
     <div id="mySecondCarousel" class="carousel slide span8 reduced-carousel">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/examples/slide-01.jpg" alt="Oficina">
+          <img src="img/rentals/beachhouse/slide-01.jpg" alt="Vacations">
           <div class="container">
             <div class="carousel-caption">
             </div>
           </div>
         </div>
-        <div class="item">
-          <img src="img/examples/slide-02.jpg" alt="Vacations">
+         <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-02.jpg" alt="Vacations">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Vacation Rentals</h1>
-              <p class="lead">Book your Baja Vacation here.</p>
-              <a class="btn btn-large btn-warning" href="#">Inquiries</a>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <img src="img/examples/slide-03.jpg" alt="">
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-03.jpg" alt="Vacations">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Real Estate</h1>
-              <p class="lead">Properties for Sale in San Juanico.</p>
-              <a class="btn btn-large btn-warning" href="#">Browse Properties</a>
+            </div>
+          </div>
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-04.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-05.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-06.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-07.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-08.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>        <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/beachhouse/slide-09.jpg" alt="Vacations">
+          <div class="container">
+            <div class="carousel-caption">
             </div>
           </div>
         </div>
@@ -174,12 +222,24 @@
 
 </section>
 
+        <br><div class="row">
+      <div class="span8 offset2">
+      <p class="text-center"><i class="icon-quote-left icon-2x subhead"></i> <strong>Lovely home at best location in Scorpion Bay!</strong> We were blessed to have the opportunity to stay in this home for two weeks in September, 2012 and we've already booked our trip for 2013 in the same house!  The location is perfect:  steps to the first point and a walk to anywhere in town.  The house is full of thoughtful details.  We enjoyed hearing the ocean and feeling the breeze through the windows.  The house is located on a bluff with no houses in front of it so it's easy to see the swell or just gaze at the ocean from most rooms in the house.  The house has an amazing professional kitchen with every cooking utensil and appliance you could ever ask for.  It's clean and organized but still maintains the feeling of a one of a kind, lived-in surf pad.  Many of our friends were staying at other rentals but they always seemed to end up at our place because it felt like home.  This place has got soul!  Dana and Bob were great to work with and helped us with whatever we needed.  We hope to stay here again and again. <i class="icon-quote-right icon-2x subhead"></i></p>
+     </div>
+     </div>
+
 
 <section class="bobs">
 	
 	
 	<div class="divider"><img src="img/swirl.png"></div>
-      <div class="featurette row-fluid">
+
+	      <div class=" row-fluid">
+      	  <h2 class="harabara">Beach Front Casita</h2>
+      	 <p class="text-center subhead">Ocean Front, beautiful views of First and Second Points</p>
+      </div>
+	
+      <div class="row-fluid">
       	
       	
       	      	 <!-- Carousel
@@ -187,46 +247,58 @@
     <div id="myThirdCarousel" class="carousel slide span8 reduced-carousel">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/examples/slide-01.jpg" alt="Oficina">
+          <img src="img/rentals/bobs-casita/slide-01.jpg" alt="Oficina">
           <div class="container">
             <div class="carousel-caption">
             </div>
           </div>
         </div>
-        <div class="item">
-          <img src="img/examples/slide-02.jpg" alt="Vacations">
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/bobs-casita/slide-02.jpg" alt="Oficina">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Vacation Rentals</h1>
-              <p class="lead">Book your Baja Vacation here.</p>
-              <a class="btn btn-large btn-warning" href="#">Inquiries</a>
             </div>
           </div>
         </div>
-        <div class="item">
-          <img src="img/examples/slide-03.jpg" alt="">
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/bobs-casita/slide-03.jpg" alt="Oficina">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Real Estate</h1>
-              <p class="lead">Properties for Sale in San Juanico.</p>
-              <a class="btn btn-large btn-warning" href="#">Browse Properties</a>
             </div>
           </div>
         </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/bobs-casita/slide-04.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/bobs-casita/slide-05.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/bobs-casita/slide-06.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+
+       
       </div>
-      <a class="left carousel-control" href="#mySecondCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#mySecondCarousel" data-slide="next">&rsaquo;</a>
+      <a class="left carousel-control" href="#myThirdCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myThirdCarousel" data-slide="next">&rsaquo;</a>
     </div><!-- /.carousel -->
 
       	
       	
      		<div class="span4">
-				<h2 class="harabara">Beach Front Casita</h2>
 				<dl>
-					<dt>
-						Ocean Front, beautiful views of First and Second Points
-					</dt>
-					<br>
 					<dd>
 						<ul class="unstyled">
 							<li>
@@ -237,9 +309,6 @@
 								Sofa bed (Sleeps 1-3)
 							</li>
 
-							<li>
-								Fully equipped kitchen
-							</li>
 						</ul>
 					</dd>
 				</dl>
@@ -252,6 +321,7 @@
 						</div>
 						<div id="collapseOneZero" class="accordion-body collapse">
 							<div class="accordion-inner">
+								Fully equipped kitchen<br>
 								Kayaks
 								<br>
 								Off road parking
@@ -310,6 +380,11 @@
 					</div>
 				</div>
 
+   			<div class="reservation-button">
+				
+<a class="btn btn-large btn-primary" href="contact.php">Reservation</a>
+</div>
+
 			</div>
 
 			</section>
@@ -318,13 +393,17 @@
 
 		<div class="divider"><img src="img/swirl.png">
 		</div>
-		<div class="featurette row-fluid">
+      <div class=" row-fluid">
+      	  <h2 class="harabara">Casa del Profe</h2>
+      	 <p class="text-center subhead">A short walk to 1st point, on a quiet street, this residence offers a large, shady outdoor area perfect for entertaining.</p>
+      </div>
+		<div class="row-fluid">
 			<div class="span4">
-				<h2 class="harabara">Casa del Profe</h2>
+
 
 				<dl>
 					<dt>
-						A short walk to 1st point, on a quiet street, this residence offers a large, shady outdoor area perfect for entertaining.
+						
 					</dt>
 					<br>
 					<dd>
@@ -399,180 +478,139 @@
 						</div>
 					</div>
 				</div>
-
+   			<div class="reservation-button">
+				
+<a class="btn btn-large btn-primary" href="contact.php">Reservation</a>
+</div>
 			</div>
+			
+			
 			<!-- Carousel
-			================================================== -->
-			<div id="mySecondCarousel" class="carousel slide span8 reduced-carousel">
+			================================================== 
+			<div id="myFourthCarousel" class="carousel slide span8 reduced-carousel">
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="img/examples/slide-01.jpg" alt="Oficina">
+						<img src="img/rentals/profes/slides-01.jpg" alt="Oficina">
 						<div class="container">
 							<div class="carousel-caption"></div>
 						</div>
 					</div>
 					<div class="item">
-						<img src="img/examples/slide-02.jpg" alt="Vacations">
+						<img src="img/rentals/profes/slides-02.jpg" alt="Oficina">
 						<div class="container">
-							<div class="carousel-caption">
-								<h1>Vacation Rentals</h1>
-								<p class="lead">
-									Book your Baja Vacation here.
-								</p>
-								<a class="btn btn-large btn-warning" href="#">Inquiries</a>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="img/examples/slide-03.jpg" alt="">
-						<div class="container">
-							<div class="carousel-caption">
-								<h1>Real Estate</h1>
-								<p class="lead">
-									Properties for Sale in San Juanico.
-								</p>
-								<a class="btn btn-large btn-warning" href="#">Browse Properties</a>
-							</div>
+							<div class="carousel-caption"></div>
 						</div>
 					</div>
 				</div>
-				<a class="left carousel-control" href="#mySecondCarousel" data-slide="prev">&lsaquo;</a>
-				<a class="right carousel-control" href="#mySecondCarousel" data-slide="next">&rsaquo;</a>
-			</div><!-- /.carousel -->
-
+									<div class="item">
+						<img src="img/rentals/profes/slides-03.jpg" alt="Oficina">
+						<div class="container">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+				</div>
+									<div class="item">
+						<img src="img/rentals/profes/slides-04.jpg" alt="Oficina">
+						<div class="container">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+				</div>
+									<div class="item">
+						<img src="img/rentals/profes/slides-05.jpg" alt="Oficina">
+						<div class="container">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+				</div>
+									<div class="item">
+						<img src="img/rentals/profes/slides-06.jpg" alt="Oficina">
+						<div class="container">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+				</div>
+									<div class="item">
+						<img src="img/rentals/profes/slides-07.jpg" alt="Oficina">
+						<div class="container">
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+				</div>
+				
+				<a class="left carousel-control" href="#myFourthCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="right carousel-control" href="#myFourthCarousel" data-slide="next">&rsaquo;</a>
+			</div> /.carousel -->
+      	      	 <!-- Carousel
+    ================================================== -->
+    <div id="myFourthCarousel" class="carousel slide span8 reduced-carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-01.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-02.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-03.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-04.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-05.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+               <div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-06.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+<div class="item">
+          <img src="img/space.gif" delayedsrc="img/rentals/profes/slides-07.jpg" alt="Oficina">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <a class="left carousel-control" href="#myFourthCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myFourthCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
 	</section>
      	
-      		
+      <div class="divider"><img src="img/swirl.png"></div>		
       	
 <!--        <img class="featurette-image pull-right" src="img/examples/browser-icon-safari.png">-->
       </div>
 
 
 
-   
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-
-        <div class="span4">
-          <i class="icon-envelope-alt icon-4x myblue"></i>
-          <h2 class="myicon-font myblue">La Oficina</h2>
-          <p>Professional services for residents &amp; visitors. Immigration, Taxes, Billing, Insurance, Translations, Permits, Legal & Concessions.</p>
-        <!--  <p><a class="btn" href="#">View details &raquo;</a></p>-->
-        </div><!-- /.span4 -->
-
-        <div class="span4" >
-          <i class="icon-home icon-4x mybrown"></i>
-          <h2 class="myicon-font mybrown">Real Estate</h2>
-          <p>Properties for Sale in San Juanico, Baja California Sur, Mexico.</p>
-          <p>Beautiful ready to move in vacation homes, Ocean Front & Desert Lots ready to begin construction of your dream vacation home. </p>
-          <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
-        </div><!-- /.span4 -->
-        
-                        <div class="span4" >
-          <i class="icon-suitcase icon-4x mycyan"></i>
-          <h2 class="myicon-font mycyan">Vacation Rentals</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
-          <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
 
 
-<div class="divider"><img src="img/swirl.png"></div>
 
-      <!-- START THE FEATURETTES -->
-
- 
-
-      <section class="featurette">
-        
-        <div class="row">
-            <div class="welcome span8">
-                <!--<h2 class="featurette-heading">La Oficina  <span class="muted">Our Business</span></h2>-->
-                <h2 class="featurette-heading harabara">Bienvenidos a la Oficina</h2>
-                <h2 class="featurette-subhead">OUR BUSINESS</h2>
-                <br>
-                
-                    <p> Whether you are a fulltime resident of San Juanico or visiting briefly, la Oficina is set up to ensure you ease whether it be in your lifestyle or during your stay. I spent most of my childhood in Todos Santos and studied International Business Studies in La Paz BCS and Seville Spain and uniquely qualifies me to facilitate all your business needs here in Mexico.</p>
-                    <p>Working with associates in Ciudad Constitucion and La Paz or directly with municipal and government agencies we can take care of your legal needs from permits, impact studies, and land purchases to immigration.<br></p>
-                    <p>When possible we pay bills in advance to take advantage of local discounts and we make sure other fees are payed on time so to avoid fines or other complications. We keep all receipts for your record and/or pass them onto your accountant in Mexico for business purposes.</p>
-                    <p>We can help with procuring materials, setting up employee pay and seguro social making the construction process enjoyable and stress free.</p>
-                    <p>I look forward to your questions and helping in any way I can.</p>
-                    <p>Lic. Dana Luckey </p><br><br>
-                   
-            </div>
-        
-    <div class="myaside-border span4">
-      <div class="myaside"><br>
-                <h2 class="featurette-heading harabara onblack">Services</h2><br>
-                
-                    <ul>
-                    	<li class="subhead">PAPERWORK</li><br>
-                    	<li>Monthly Payment of services</li>
-                    	<li>Property Taxes</li>
-                        <li>Fideicomiso</li>
-                        <li>Insurance Setups</li>
-                    	<li>Translations</li>
-                    	<li>Legal Services</li>	
-                    	<li>FM3, FM2, Working Permits</li>	
-                    	<li>Import of belongings,vehicles,etc</li><br>
-                    	<li class="subhead">PLANNING</li><br>
-                    	<li>Property surveying</li>
-                        <li>Impact studies</li>
-                        <li>Construction Permits</li><br>
-                    	<li class="subhead">CONSTRUCTION</li><br></bre>
-                        <li>Monthly Payment of employees</li>
-                        <li>Concessions</li>
-                        <li>Conagua,PROFEPA</li>
-                       <li>Seguro Social</li><br>
-                  </ul>
-
-      </div>
-     </div>          
-             
-
-            <div class="services span4">
-                    <h2 class="featurette-heading harabara">Services</h2>
-                    <table class="table table-striped">
-                        <tbody>
-                            <tr><td>Monthly Payment of services</td></tr>
-                            <tr><td>Monthly Payment of employees</td></tr>
-                            <tr><td>Property Taxes</td></tr>
-                            <tr><td>Property Taxes</td></tr>
-                            <tr><td>Fideicomiso</td></tr>
-                            <tr><td>Insurance Setups</td></tr>
-                            <tr><td>Property surveying</td></tr>
-                            <tr><td>Impact studies</td></tr>
-                            <tr><td>Construction Permits</td></tr>
-                            <tr><td>FM3, FM2, Working Permits</td></tr>
-                            <tr><td>Legal Services</td></tr>
-                            <tr><td>Concessions</td></tr>
-                            <tr><td>Conagua,PROFEPA</td></tr>
-                            <tr><td>Translations</td></tr>
-                            <tr><td>Seguro Social</td></tr>
-                            <tr><td>Import of belongings,vehicles,etc</td></tr>
-                        </tbody>
-                    </table>          
-            </div> 
-         </div>  
-              
-      </section>
-   
-
-
-<div class="divider"><img src="img/swirl.png"></div>
-
-      <div id="about" class="featurette">
-        <img class="featurette-image pull-right ftte-img-adjust" src="img/dana&alastair.jpg">
-        <h2 class="featurette-heading harabara">About Dana & Alastair</span></h2><br>
-        <p>Dana Luckey and Alastair Hilson established La Oficina in San Juanico in response to the growing needs of the expatriate community for property and paperwork services. Being a native of Baja California Sur and having Spanish as her mother tongue has placed Dana in an ideal position to act as a facilitator for the legal and paperwork issues involved in buying real estate, construction and property maintenance in San Juanico.</p>
-           <p>     For those visiting San Juanico and then falling in love with this unique and beautiful place, there is now a full service option, from a trusted and up-to-date property listing service through the processing of paperwork, for those making the leap and purchasing real estate in Mexico.</p>
-              <p>  Our vacation rentals are a great way to introduce people to the beauty and serenity you find in this undeveloped and still pristine part of the world. Year after year we watch as our repeat customers in the rental accommodations move onto their own property and set up a desert home. La Oficina is committed to assisting in any way possible with this process, whether on a brief trip to San Juanico or preparing for a more permanent stay, you are putting yourself in good safe hands with Dana, Alastair and Emilio.</p>
-      </div>
-
-    
-
-      <!-- /END THE FEATURETTES -->
-
-<div class="divider"><img src="img/swirl.png"></div>
-
- <?php include("inc/footer.php"); ?>
+ <?php 
+ $myvar="english";
+ include("inc/footer.php"); ?>

@@ -1,354 +1,385 @@
-	/* GLOBAL STYLES
-	 -------------------------------------------------- */
-	/* Padding below the footer and lighter body text */
-	
-	body {
-		padding-bottom: 40px;
-		color: #5a5a5a;
-		background-color: #FCFCFC;
-		font-family: 'Raleway', sans-serif;
-	}
-	footer {
-		font-family: 'Flamenco', cursive;
-	}
-	
-	/* CUSTOMIZE THE NAVBAR
-	 -------------------------------------------------- */
-	
-	/* Special class on .container surrounding .navbar, used for positioning it into place. */
-	.navbar-wrapper {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 10;
-		margin-top: 20px;
-		margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-	}
-	.navbar-wrapper .navbar {
-		display: none;
-	}
-	
-	/* Remove border and change up box shadow for more contrast */
-	.navbar .navbar-inner {
-		border: 0;
-		-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-		-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-		box-shadow: 0 2px 10px rgba(0,0,0,.25);
-	}
-	
-	/* Downsize the brand/project name a bit */
-	.navbar .brand {
-		padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-		font-size: 16px;
-		font-weight: bold;
-		text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-	}
-	
-	/* Navbar links: increase padding for taller navbar */
-	.navbar .nav > li > a {
-		padding: 15px 20px;
-	}
-	
-	/* Offset the responsive button for proper vertical alignment */
-	.navbar .btn-navbar {
-		margin-top: 10px;
-	}
-	/**************************************************************************/
-	/*                  LAO customization                                     */
-	/**************************************************************************/
-	/*
-	 @font-face {
-	 font-family: 'Muli';
-	 font-style: normal;
-	 font-weight: 400;
-	 src: local('Muli'), url(http://themes.googleusercontent.com/static/fonts/muli/v4/kU4XYdV4jtS72BIidPtqyw.woff) format('woff');
-	 }*/
-	
-	@font-face {
-		font-family: 'HarabaraHandItalic';
-		src: url('../font/HarabaraHand-webfont.eot');
-		src: url('../font/HarabaraHand-webfont.eot?#iefix') format('embedded-opentype'), url('../font/HarabaraHand-webfont.woff') format('woff'), url('../font/HarabaraHand-webfont.ttf') format('truetype'), url('../font/HarabaraHand-webfont.svg#HarabaraHandItalic') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}
-	.harabara {
-		font-family: 'HarabaraHandItalic';
-		color: #555555;
-		text-align: center;
-	}
-	
-	.featurette-subhead {
-		color: #c69c6d;
-		text-align: center;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 20px;
-	}
-	
-	body {
-		font: 400 14px/1.6 'Muli', Verdana, Helvetica, sans-serif;
-		letter-spacing: 0.5px;
-		word-spacing: 0px;
-		font-size: 1em;
-		line-height: 1.4;
-		padding-bottom: 0px;
-	}
-	
-	.my-nav-wrapper {
-		position: absolute;
-		background-color: rgba(255,255,255,.87);
-		height: 75px;
-		z-index: 10000;
-		width: 100%;
-	}
-	.blue-line {
-		width: 100%;
-		height: 5px;
-		background-color: #00162b;
-		position: absolute;
-		bottom: 4px;
-	}
-	.lower-blue-line {
-		width: 100%;
-		height: 5px;
-		margin-top: -56px;
-		margin-bottom: 50px;
-		background-color: #00162b;
-	}
-	.yellow-line {
-		width: 100%;
-		height: 5px;
-		background-color: #cc9933;
-		position: absolute;
-		top: 0px;
-	}
-	
-	.lao-nav {
-		padding-top: 35px;
-		width: 980px;
-		margin: 0 auto;
-		z-index:200;
-	}
-	.lao-nav ul{list-style: none;display:table-cell;}
-	.lao-nav ul.left-ul {
-		float: left;
-	}
-	.lao-nav ul.right-ul {
-		float: right;
-	}
-	.lao-nav li {
-		display: table-cell;
-		width: 160px;
-	}
-	.lao-logo {
-		position:absolute;
-		top:5px;
-		left:40%;
-		padding-top: 5px;
-		position: absolute;
-		top: 0;
-		margin: 0 auto;
-		text-align: center;
-		display: table-cell;
-		width: 260px;
-		height: 120px;
-		z-index:0;
-	}
-	a:hover{
-		text-decoration:none;
-		color:#cc9933;!important
-	}
-	.lao-nav a{
-		color:#00162b;
-	}
-	.myfooter {
-		background-color: #242424;
-		/*	width:100%;*/
-		color: #cacaca;
-		min-height: 150px;
-		padding: 20px 0px 40px 0px;
-	}
-	.myfooter h4 {
-		font-family: Arial;
-		color: #83a9ac;
-	}
-	.copyright {
-	
-		display: block;
-		width: 100%;
-		text-align: center;
-		padding-top: 40px;
-		color: #666666;
-	}
-	.mycyan {
-		/*color: #DB3279;*/
-		color:#646f78;
-	}
-	.mybrown {
-		/*color: #E59728;*/
-		color: #22180D;
-	}
-	.myblue {
-		/*color: #3C6EB4;*/
-		color: #b1ac74;
-	}
-	.myicon-font{
-		font-family:Helvetica, sans-serif;
-	}
-	.myaside-border {
-		float: right;
-		border: 1px solid #898989;
-		min-height: 306px;
-		padding: 2px;
-		margin-left: -4px;
-	}
-	
-	.myaside {
-		background-color: black;
-		min-height: 300px;
-		text-align: left;
-	}
-	.myaside ul {
-		margin: 0
-	}
-	.myaside ul {
-		padding-left: 30px;
-		color: white;
-		font-family: Arial, Helvetica, sans-serif;
-		list-stlye: none;
-		list-style-type: none;
-	}
-	.subhead {
-		color: #c69c6d;
-	}
-	.onblack {
-		color: white;
-	}
-	.myaside {
-		color: #c69c6d;
-		text-align: left;
-		font-family: Arial, Helvetica, sans-serif;
-	}
-	.ftte-img-adjust{
-		padding-top:60px;
-		padding-bottom:30px;
-	}
-	.services {
-		display: none;
-	}
-	.divider{
-		border-top: 1px solid #e3e3e1;
-margin-top: 40px;
-height:40px;
-text-align:center;
+/* GLOBAL STYLES
+ -------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-	}
-	.divider img{
-		margin-top:-24px;
-	}
-	/* CUSTOMIZE THE CAROUSEL
-	 -------------------------------------------------- */
-	
-	/* Carousel base class */
-	.carousel {
-		margin-bottom: 60px;
-	}
-	
-	.carousel .container {
-		position: relative;
-		z-index: 9;
-	}
-	
-	.carousel-control {
-		height: 80px;
-		margin-top: 0;
-		font-size: 120px;
-		text-shadow: 0 1px 1px rgba(0,0,0,.4);
-		background-color: transparent;
-		border: 0;
-		z-index: 10;
-	}
-	
-	.carousel .item {
-		height: 500px;
-	}
-	.carousel img {
-		position: absolute;
-		top: 0;
-		left: 0;
-		min-width: 100%;
-		height: 500px;
-	}
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+	background-color: #FCFCFC;
+	font-family: 'Raleway', sans-serif;
+}
+footer {
+	font-family: 'Flamenco', cursive;
+}
 
-	.carousel-caption {
-		background-color: transparent;
-		position: static;
-		max-width: 550px;
-		padding: 0 20px;
-		margin-top: 200px;
-	}
-	.carousel-caption h1, .carousel-caption .lead {
-		margin: 0;
-		margin-left: 30px;
-		line-height: 1.25;
-		color: #fff;
-		text-shadow: 0 1px 1px rgba(0,0,0,.4);
-	}
-	.carousel-caption .btn {
-		margin-top: 10px;
-		margin-left: 30px;
-	}
-	
-	.reduced-carousel img{
-		height:400px;!important
-		
-	}
-	
-		
+/* CUSTOMIZE THE NAVBAR
+ -------------------------------------------------- */
 
-	
-	/* MARKETING CONTENT
-	 -------------------------------------------------- */
-	
-	/* Center align the text within the three columns below the carousel */
-	.marketing .span4 {
-		text-align: center;
-	}
-	.marketing h2 {
-		font-weight: normal;
-	}
-	.marketing .span4 p {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	
-	/* Featurettes
-	 ------------------------- */
-	
-	.featurette-divider {
-		margin: 80px 0; /* Space out the Bootstrap <hr> more */
-	}
-	.featurette {
-		padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-		overflow: hidden; /* Vertically center images part 2: clear their floats. */
-	}
-	.featurette-image {
-		margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-	}
-	
-	/* Give some space on the sides of the floated elements so text doesn't run right into it. */
-	.featurette-image.pull-left {
-		margin-right: 40px;
-	}
-	.featurette-image.pull-right {
-		margin-left: 40px;
-	}
-	
-	/* Thin out the marketing headings */
-	.featurette-heading {
-		font-size: 50px;
-		font-weight: 300;
-		line-height: 1;
-		letter-spacing: -1px;
-	}
-	
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	margin-top: 20px;
+	margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+.navbar-wrapper {
+	display: none;
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+	border: 0;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+	box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+	padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+	padding: 15px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+	margin-top: 10px;
+}
+/**************************************************************************/
+/*                  LAO customization                                     */
+/**************************************************************************/
+/*
+ @font-face {
+ font-family: 'Muli';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Muli'), url(http://themes.googleusercontent.com/static/fonts/muli/v4/kU4XYdV4jtS72BIidPtqyw.woff) format('woff');
+ }*/
+
+@font-face {
+	font-family: 'HarabaraHandItalic';
+	src: url('../font/HarabaraHand-webfont.eot');
+	src: url('../font/HarabaraHand-webfont.eot?#iefix') format('embedded-opentype'), url('../font/HarabaraHand-webfont.woff') format('woff'), url('../font/HarabaraHand-webfont.ttf') format('truetype'), url('../font/HarabaraHand-webfont.svg#HarabaraHandItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.harabara {
+	font-family: 'HarabaraHandItalic';
+	color: #555555;
+	text-align: center;
+}
+
+.featurette-subhead {
+	color: #c69c6d;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+body {
+	font: 400 14px/1.6 'Muli', Verdana, Helvetica, sans-serif;
+	letter-spacing: 0.5px;
+	word-spacing: 0px;
+	font-size: 1em;
+	line-height: 1.4;
+	padding-bottom: 0px;
+}
+
+.my-nav-wrapper {
+	position: absolute;
+	background-color: rgba(255,255,255,.95);
+	height: 75px;
+	z-index: 10000;
+	width: 100%;
+}
+.blue-line {
+	width: 100%;
+	height: 5px;
+	background-color: #00162b;
+	position: absolute;
+	bottom: 4px;
+}
+.lower-blue-line {
+	width: 100%;
+	height: 5px;
+	margin-top: -56px;
+	margin-bottom: 50px;
+	background-color: #00162b;
+}
+.yellow-line {
+	width: 100%;
+	height: 5px;
+	background-color: #F4B408;
+	position: absolute;
+	top: 0px;
+}
+
+.lao-nav {
+	padding-top: 35px;
+	width: 980px;
+	margin: 0 auto;
+	z-index: 200;
+}
+.lao-nav ul {
+	list-style: none;
+	display: table-cell;
+}
+.lao-nav ul.left-ul {
+	float: left;
+}
+.lao-nav ul.right-ul {
+	float: right;
+}
+.lao-nav li {
+	display: table-cell;
+	width: 160px;
+}
+.lao-logo {
+	position: absolute;
+	top: 5px;
+	left: 40%;
+	padding-top: 5px;
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+	text-align: center;
+	display: table-cell;
+	width: 260px;
+	height: 120px;
+	z-index: 0;
+}
+a:hover {
+	text-decoration: none;
+	color: #cc9933;!important
+}
+.lao-nav a {
+	color: #00162b;
+}
+.myfooter {
+	margin-top:80px;
+	font-size: 1em;
+	background-color: #242424;
+	/*	width:100%;*/
+	color: #cacaca;
+	min-height: 150px;
+	padding: 20px 0px 40px 0px;
+}
+.myfooter h4 {
+	font-family: Arial;
+	color: #83a9ac;
+	margin-left: -8px;
+}
+.copyright {
+
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+	color: #666666;
+}
+.mycyan {
+	/*color: #DB3279;*/
+	color: #646f78;
+}
+.mybrown {
+	/*color: #E59728;*/
+	color: #7B5735;
+}
+.myblue {
+	/*color: #3C6EB4;*/
+	color: #b1ac74;
+}
+.myicon-font {
+	font-family: Helvetica, sans-serif;
+}
+.myaside-border {
+	float: right;
+	border: 1px solid #898989;
+	min-height: 306px;
+	padding: 2px;
+	margin-left: -4px;
+}
+
+.myaside {
+	background-color: black;
+	min-height: 300px;
+	text-align: left;
+}
+.myaside ul {
+	margin: 0
+}
+.myaside ul {
+	padding-left: 30px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	list-stlye: none;
+	list-style-type: none;
+}
+.subhead {
+	color: #c69c6d;
+}
+
+.onblack {
+	color: white;
+}
+.myaside {
+	color: #c69c6d;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ftte-img-adjust {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.services {
+	display: none;
+}
+.divider {
+	border-top: 1px solid #e3e3e1;
+	margin-top: 40px;
+	height: 40px;
+	text-align: center;
+}
+.divider img {
+	margin-top: -25px;
+}
+.translation-buttons {
+	text-align: center;
+}
+.hide {
+	display: none;
+}
+.real-estate-accordion {
+	padding-top: 60px;
+}
+.reservation-button {
+	margin-top: 20px;
+}
+.real-estate-inquiry-button {
+	margin-top: 30px;
+}
+.modal form {
+	margin-bottom: 0px;
+}
+#mapCanvas {
+	margin-bottom: 20px;
+	height: 400px;
+	margin-top: 20px;
+}
+#locale {
+	padding-top: 120px;
+}
+/* CUSTOMIZE THE CAROUSEL
+ -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 60px;
+}
+
+.carousel .container {
+	position: relative;
+	z-index: 9;
+}
+
+.carousel-control {
+	height: 80px;
+	margin-top: 0;
+	font-size: 120px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: transparent;
+	border: 0;
+	z-index: 10;
+}
+
+.carousel .item {
+	height: 600px;
+}
+.carousel img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 600px;
+}
+
+.carousel-caption {
+	background-color: transparent;
+	position: static;
+	max-width: 550px;
+	padding: 30px 20px;
+	margin-top: 200px;
+}
+.carousel-caption h1, .carousel-caption .lead {
+	margin: 0;
+	margin-left: 30px;
+	line-height: 1.25;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.reduced-carousel img {
+	height: 400px;!important
+}
+.reduced-carousel .item {
+	height: 400px;!important
+}
+
+/* MARKETING CONTENT
+ -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+	text-align: center;
+}
+.marketing h2 {
+	font-weight: normal;
+}
+.marketing .span4 p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Featurettes
+ ------------------------- */
+
+.featurette-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+	padding-top: 40px; /* Vertically center images part 1: add padding above and below text. */
+	overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+	margin-top: -30px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+

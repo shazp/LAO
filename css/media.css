@@ -21,7 +21,7 @@
 	/*                  LAO customized static Navbar                          */
 	/**************************************************************************/
 
-	.navbar-wrapper .navbar {
+	.navbar-wrapper{
 		display: block;
 	}
 

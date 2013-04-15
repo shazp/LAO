@@ -28,7 +28,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="ico/favicon.png">
+                                   <link rel="shortcut icon" href="ico/favicon.gif">
   </head>
 
   <body>
@@ -36,7 +36,7 @@
     <!-- NAVBAR
     ================================================== -->
     <div class="rel-container">
-    <div class="my-nav-wrapper">
+    <div class="my-nav-wrapper <?php if($pagename=="gorosaves"){echo "hide";} ?>">
     	<div class="yellow-line"></div>
     	<div class="blue-line"></div>
    	<div class="lao-logo">
@@ -46,7 +46,7 @@
     <div class="lao-nav">
     	
     	<ul class="left-ul">
-    		<li class="active"><a class="mynav-link" href="#" >Home</a></li>
+    		<li class="active"><a class="mynav-link" href="index.php" >Home</a></li>
     		<li ><a class="mynav-link" href="rentals.php">Vacation Rentals</a></li>
     	</ul>
 
@@ -54,12 +54,13 @@
     		<li><a class="mynav-link" href="realestate.php">Real Estate</a></li>
     		<li><a class="mynav-link" href="contact.php">Contact</a></li>
     	</ul>
+
     </div>
     </div>
 </div>
 
 
-    <div class="navbar-wrapper">
+    <div class="navbar-wrapper" style="display:<?php if($pagename=="gorosaves"){echo "block;";} ?> ">
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
       <div class="container">
 
@@ -79,17 +80,14 @@
                 <li><a href="realestate.php">Real Estate</a></li>
                 <li><a href="rentals.php">Vacation Rentals</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Oficina<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#">Local Info</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Our Partners</li>
-                    <li><a href="#">Materiales y Transportes San Juanico</a></li>
-                    <li><a href="#">One more separated link</a></li>
+
+                    <li><a href="gorosaves.php">Materiales y Transportes San Juanico</a></li>
+           
                   </ul>
                 </li>
               </ul>
